@@ -1,0 +1,26 @@
+# Ignore everything inside .obsidian
+.obsidian/*
+
+# Except for the plugins folder
+!.obsidian/plugins/
+!.obsidian/plugins/**
+
+# Optionally keep the list of installed community plugins
+!.obsidian/community-plugins.json
+
+# Ignore user-specific configuration files
+.obsidian/workspace
+.obsidian/workspace.json
+.obsidian/app.json
+.obsidian/appearance.json
+
+# Ignore cache files and auto-generated graphs
+.obsidian/cache
+.obsidian/graph.json
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore local plugin dependencies (if any)
+.obsidian/plugins/**/node_modules/
